@@ -12,11 +12,10 @@ Il envoie une alerte email lorsqu'un croisement MACD est détecté ou si le prix
 1. Crée un compte ou connecte-toi sur [Replit](https://replit.com/).
 2. Crée un nouveau projet Python.
 3. Upload les fichiers de ce dossier dans ton projet.
-4. Ajoute les variables d'email dans le fichier `macd_alert.py` :
+4. Crée un fichier `.env` avec les variables d'email suivantes :
    - EMAIL_ADDRESS : Ton adresse Gmail
    - EMAIL_PASSWORD : Ton mot de passe Gmail
    - TO_EMAIL : Adresse email de destination
-   - PRICE_ALERT_THRESHOLD : Le seuil de prix à configurer.
 
 ## Exécution
 Clique sur **Run** dans Replit pour démarrer le script.
